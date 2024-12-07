@@ -1,5 +1,6 @@
 import React from "react";
-import "../assets/img/gallery/burger.png"
+import logo from "../assets/img/gallery/logo.svg"
+
 const Html = () => {
   return (
     <main className="main" id="top">
@@ -11,7 +12,7 @@ const Html = () => {
           <a className="navbar-brand d-inline-flex" href="index.html">
             <img
               className="d-inline-block"
-              src="./src/assets/img/gallery/logo.svg"
+              src={logo}
               alt="logo"
             />
             <span className="text-1000 fs-3 fw-bold ms-2 text-gradient">
