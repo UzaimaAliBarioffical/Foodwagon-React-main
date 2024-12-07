@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../assets/img/gallery/burger.png"
 const Html = () => {
   return (
     <main className="main" id="top">
